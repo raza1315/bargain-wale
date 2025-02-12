@@ -3,9 +3,9 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
 import { Ionicons, MaterialIcons, FontAwesome5 } from "@expo/vector-icons"
 import { View, Text } from "react-native"
-import Home from "./screens/Home"
-import More from "./screens/More"
-import Inventory from "./screens/Inventory"
+import Home from "./screen/Home"
+import More from "./screen/More"
+import Inventory from "./screen/Inventory"
 
 const Tab = createBottomTabNavigator()
 const Stack = createNativeStackNavigator()
